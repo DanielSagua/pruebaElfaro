@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+  <body class="has-background-primary">
+<section class="section">
+  <div class="container">
+    <h1 class="title">Formulario de Contacto</h1>
+    
+    <form action="enviar.php" method="POST">
+      <div class="field">
+        <label class="label">Nombre</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Escribe tu nombre" name="nombre">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Correo Electrónico</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="Escribe tu correo electrónico" name="email">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Mensaje</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Escribe tu mensaje" name="mensaje"></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control">
+          <button class="button is-primary" type="submit">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
+
+
